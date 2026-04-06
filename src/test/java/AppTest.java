@@ -6,7 +6,7 @@ public class AppTest{
 
     @Test
     void testAddition(){
-        assertEquals("Feedback");
+        assertEquals(5,App.add(2,3));
     }
 }
 
